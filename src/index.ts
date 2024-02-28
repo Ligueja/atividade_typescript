@@ -258,8 +258,6 @@ type Diretor1 = {
 type Cadastros = Usuario1 | Diretor1; 
 
 //cadastrando objeto pré-definidos para rodar a função.
-
-
 const cadastros: Cadastros[] = [
   {
     nome: "Luiz Henrique",
@@ -285,7 +283,7 @@ const cadastros: Cadastros[] = [
 }
 ]
 
-
+// função para mostrar os itens cadastrados. Usando o operador IN para fazer a verificação se existe a infromação de "ocupação" para mostrar que é um usuário ou um diretor. Validação if e else para monstrar no console N/A quando nenhum salário informado. 
 function mostrarCadastros (cadastros: Cadastros): void {
     if ("ocupacao" in cadastros) {
         console.log("Trata-se de um usuário");
@@ -307,4 +305,6 @@ function mostrarCadastros (cadastros: Cadastros): void {
 
 console.log ("EXERCÍCIO 07 RESPOSTA:")
 
+
+// usado o método array forEach para iterar item por item no array e chamando a função para mostras os dados cadastrados. 
 cadastros.forEach((cadastro) => mostrarCadastros(cadastro));
