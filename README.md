@@ -4,7 +4,7 @@
 
 <b>ATIVIDADE DE AULA - TYPESCRIPT</b>
 
-####Usando o projeto Node.js + Typescript configurado, realize os seguintes exercícios:
+Usando o projeto Node.js + Typescript configurado, realize os seguintes exercícios:
 
 1. Crie uma função que receba 2 números e retorne um objeto contendo a média e também um indicador booleano de aprovado/reprovado. Considere aprovado com média >= 6.
 2. Crie uma função que receba uma lista de objetos contendo nota e peso, realize a média das notas considerando o peso. Exemplos:
@@ -25,7 +25,7 @@ b. “Diretor(a) Daphne, 23 anos, comissão nível 5, salário N/A”
 a. O mesmo que o exercício 5, em caso de objeto User. 
 b. O mesmo que o exercício 6, em caso de objeto Diretor.
 
-Abaixo as repostas no console do VS Code:
+<b>Abaixo as repostas no terminal do VS Code:</b>
 
 <img src="https://github.com/Ligueja/atividade_typescript/blob/main/assets/resultados.jpg" width="800"/>
 
